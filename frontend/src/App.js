@@ -7,7 +7,7 @@ function App() {
   return (
     <div className="App">
       <Title/>
-        <img src={Principal} style={{ height: 300, width: 600 }}/>
+        <img src={Principal} style={{ height: 250, width: 500 }}/>
         <p>
           Breve historia sobre jmm.
         </p>

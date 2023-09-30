@@ -1,15 +1,20 @@
-import logo from './logo.svg';
+
 import './App.css';
+import Title from './common/components/Title';
+import Principal from './static/images/Casa.jpg'
 
 function App() {
   return (
     <div className="App">
-      <header className="App-header">
-        <img src={logo} className="App-logo" alt="logo" />
+      <Title/>
+        <img src={Principal} />
         <p>
-          Hola Jesus
+          Breve historia sobre jmm.
         </p>
-      </header>
+        <br/><br/><br/><br/>
+        <p>
+          Aunque seas un puto petardo te amo Jesusin.
+        </p>
     </div>
   );
 }
